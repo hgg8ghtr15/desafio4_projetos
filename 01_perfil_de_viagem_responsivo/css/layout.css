@@ -1,0 +1,59 @@
+.container {
+  width: 22.5rem;
+}
+.px-xl {
+  padding-inline: var(--rem-1);
+}
+.py-xl {
+  padding-block: var(--rem-1);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: var(--rem-1);
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (width>=80em) {
+  .container {
+    width: 80rem;
+  }
+
+  .px-xl {
+    padding-inline: var(--rem-2);
+  }
+  .py-xl {
+    padding-block: var(--rem-2);
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .desktop-only {
+    display: initial;
+  }
+}

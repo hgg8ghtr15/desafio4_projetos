@@ -1,0 +1,15 @@
+a {
+  color: var(--text-color-secondary);
+  
+  &:hover {
+    color: var(--brand-color);
+  }
+}
+
+svg{
+    fill:var(--text-color-secondary);
+
+    &:hover {
+    fill: var(--brand-color);
+  }
+}

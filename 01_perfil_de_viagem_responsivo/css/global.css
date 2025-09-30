@@ -1,35 +1,79 @@
 :root {
+  /* Produto */
+  --brand-color: #ef5f4c;
 
-    /* Produto */
-    --brand-color: #EF5F4C;
+  /* Shape */
+  --background-color: #ffffff;
+  --surface-color: #f5f5f5;
+  --skeleton-color: #d9d9d9;
+  --shape-transparency: lab(100% 0.01 -0.01 / 0.56);
 
-    /* Shape */
-    --background-color: #FFFFFF;
-    --surface-color: #f5f5f5;
-    --skeleton-color: #d9d9d9;
-    --shape-transparency: lab(100% 0.01 -0.01 / 0.56);
+  /* Text */
+  --text-color-primary: #313131;
+  --text-color-secondary: #6c6c6c;
 
-    /* Text */
-    --text-color-primary:#313131;
-    --text-color-secondary: #6c6c6c;
+  /* Font family */
+  --ff-pops: "Poppins", sans-serif;
 
-    --ff-pops: "Poppins", sans-serif;
+  /* font-size */
+  --fs-h1: 2rem;
+  --fs-p-md: 0.875rem;
+  --fs-p-sd: 0.75rem;
 
+  /* font-he */
+  --fh-h1: 125%;
+  --fh-p-md: 170%;
+  --fh-p-sm: 125%;
+
+  /* font-w */
+  --fw-bold: 700;
+  --fw-regular: 400;
+
+  /* Medidas */
+  --rem-1: 1rem;
+  --rem-1-25: 1.25rem;
+  --rem-1-50: 1.5rem;
+  --rem-2: 2rem;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: var(--ff-pops);
+  /* font: var(--fw-bold) var(--fs-h1)/var(--fh-h1) var(--ff-pops); */
+  background-color: var(--surface-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (width>=80em) {
+  :root {
+    /* font-size */
     --fs-h1: 2rem;
-    --fs-p-md: .875rem;
-    --fs-p-sd: .75rem;
+    --fs-p-md: 0.875rem;
+    --fs-p-sd: 0.75rem;
 
+    /* font-he */
     --fh-h1: 125%;
     --fh-p-md: 170%;
     --fh-p-sm: 125%;
 
+    /* font-w */
     --fw-bold: 700;
     --fw-regular: 400;
-}
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    /* font: var(--fw-bold) var(--fs-h1)/var(--fh-h1) var(--ff-pops); */
+    /* Medidas */
+    --rem-1: 1rem;
+    --rem-1-25: 1.25rem;
+    --rem-1-50: 1.5rem;
+    --rem-2: 2rem;
+  }
 }

@@ -1,0 +1,16 @@
+#header {
+  & .container {
+    & nav {
+      & .perfil {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+    }
+  }
+}
+
+@media (width >= 80em) {
+  #header {
+
+  }
+}
