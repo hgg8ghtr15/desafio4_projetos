@@ -1,11 +1,17 @@
 .container {
   width: 22.5rem;
 }
-.px-xl {
+.px-gl {
   padding-inline: var(--rem-1);
 }
-.py-xl {
+.py-gl {
   padding-block: var(--rem-1);
+}
+.px-xl {
+  padding-inline: var(--rem-2);
+}
+.py-xl {
+  padding-block: var(--rem-2);
 }
 
 .flex {
@@ -38,6 +44,12 @@
     width: 80rem;
   }
 
+  .px-gl {
+    padding-inline: var(--rem-1);
+  }
+  .py-gl {
+    padding-block: var(--rem-1);
+  }
   .px-xl {
     padding-inline: var(--rem-2);
   }
