@@ -1,0 +1,25 @@
+#footer {
+  & footer {
+    gap: 1.4rem;
+    padding: 1rem;
+    justify-content: space-between;
+    & span {
+      font-size: var(--fs-p-sm);
+      font-weight: var(--fw-regular);
+    }
+  }
+}
+
+@media (width >=80em) {
+  #footer {
+    gap: var(--rem-2);
+    & .container {
+        flex-direction: row;
+        padding-inline: 2rem;
+        padding-inline: 1.5rem;
+        & div:nth-child(2) {
+        justify-content: space-between;
+      }
+    }
+  }
+}
