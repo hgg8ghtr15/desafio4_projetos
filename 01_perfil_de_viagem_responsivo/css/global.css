@@ -76,4 +76,10 @@ a {
     --rem-1-50: 1.5rem;
     --rem-2: 2rem;
   }
+  & body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
